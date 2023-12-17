@@ -1,5 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Syne:wght@400;500;600&display=swap');
 
+:root {
+    --colorChange: rgb(255, 123, 0);
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }  
@@ -13,12 +17,27 @@ body {
 }
 
 nav a:hover {
+    color: var(--colorChange) !important;
     text-decoration: underline;
     text-underline-offset: .5rem;
     text-decoration-thickness: 2px;
-    text-decoration-color: orange;
+    text-decoration-color: var(--colorChange);
   }
 
   nav {
     box-shadow: 0 0 20px rgb(143, 143, 143, 0.5);
+  }
+
+  .hero-bg {
+    height: 100vh;
+    background-image: url(/images/vecteezy_watercolor-art-background-vector-wallpaper-design-with_23031786.jpg);
+    background-color: rgba(255,255,255,0.5) !important;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+
+  .hero-content {
+    display: inline-flex;
   }
