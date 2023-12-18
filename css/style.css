@@ -40,7 +40,7 @@ nav a:hover {
   }
 
   .sub-heading {
-    color: rgb(116, 116, 116);
+    color: rgb(107, 107, 107);
   }
 
   .hero-content {
@@ -69,4 +69,11 @@ nav a:hover {
   transform: scale(1.5);
 }
 
-  
+  .about-bg {
+    height: 100vh;
+    background-image: url(/images/about-bg.jpg);
+    background-color: rgba(255,255,255,0.8) !important;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
