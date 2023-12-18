@@ -30,14 +30,36 @@ nav a:hover {
 
   .hero-bg {
     height: 100vh;
+    position: relative;
     background-image: url(/images/vecteezy_watercolor-art-background-vector-wallpaper-design-with_23031786.jpg);
-    background-color: rgba(255,255,255,0.5) !important;
+    background-color: rgba(255,255,255,0.4) !important;
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    
+  }
+
+  .sub-heading {
+    color: grey;
   }
 
   .hero-content {
     display: inline-flex;
+    align-items: center;
   }
+
+  .custom-btn {
+    border-color: var(--colorChange);
+    text-decoration: none;
+  }
+
+
+  .custom-btn:hover {
+    background-color: var(--colorChange);
+    color: white;
+  }
+  /* .hero-content {
+    display: inline-flex;
+  } */
+
+ 
