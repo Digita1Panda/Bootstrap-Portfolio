@@ -25,7 +25,7 @@ nav a:hover {
   }
 
   nav {
-    box-shadow: 0 0 20px rgb(143, 143, 143, 0.5);
+    box-shadow: 0 0 30px rgb(143, 143, 143, 0.6);
   }
 
   .hero-bg {
@@ -40,11 +40,11 @@ nav a:hover {
   }
 
   .sub-heading {
-    color: grey;
+    color: rgb(116, 116, 116);
   }
 
   .hero-content {
-    display: inline-flex;
+    display: flex;
     align-items: center;
   }
 
@@ -58,8 +58,15 @@ nav a:hover {
     background-color: var(--colorChange);
     color: white;
   }
-  /* .hero-content {
-    display: inline-flex;
-  } */
 
- 
+.icon {
+  height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+  
