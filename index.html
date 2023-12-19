@@ -199,9 +199,9 @@
 
     <!-- Forms Contact Section -->
     <section id="contact" class="contact-bg">
-      <div class="container-lg">
+      <div class="container-lg p-5">
         <div class="text-center">
-          <h5>Get in Touch</h5>
+          <h5 class="display-5 pt-5">Get in Touch</h5>
           <p>Contact me directly.</p>
         </div>
 
@@ -209,22 +209,42 @@
           <div class="col-lg-6">
             <form>
               <label for="email" class="form-label">Email address:</label>
-              <input type="email" class="form-control" id="email" placeholder="e.g. zelda@gmail.com">
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input type="email" class="form-control" id="email" placeholder="e.g. zelda@gmail.com">
+              </div>
 
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="e.g. Zelda">
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+                <input type="text" class="form-control" id="name" placeholder="e.g. Zelda">
+              </div>
+              
 
               <label for="subject" class="form-label">What is your query about?</label>
-              <select id="subject" class="form-select">
-                <option value="general" selected>General Query</option>
-                <option value="pricing">Pricing Query</option>
-                <option value="project">For Project Work</option>
-              </select>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-chat-right-dots-fill"></i>
+                </span>
+                <select id="subject" class="form-select">
+                  <option value="general" selected>General Query</option>
+                  <option value="pricing">Pricing Query</option>
+                  <option value="project">For Project Work</option>
+                </select>
+              </div> 
 
               
-              <div class="form-floating">
+              <div class="form-floating mb-4 mt-5">
                 <textarea id="query" class="form-control" style="height: 15rem"></textarea>
                 <label for="query">Your Query...</label>
+              </div>
+
+              <div class="mb-4 text-center btn-color">
+                <button type="submit" class="btn custom-btn rounded-pill btn-color">Submit</button>
               </div>
               
             </form>
