@@ -99,6 +99,7 @@ nav {
   box-shadow: 0px 0px 20px rgb(155, 155, 155, 0.6);
 }
 
+/* Background for Skills Section */
 .skills-bg {
   min-height: 100vh;
   background-image: url(../images/skills-bg.jpg);
