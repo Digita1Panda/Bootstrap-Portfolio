@@ -51,12 +51,14 @@ nav a:hover {
   .custom-btn {
     border-color: var(--colorChange);
     text-decoration: none;
+    
   }
 
 
   .custom-btn:hover {
     background-color: var(--colorChange);
     color: white;
+    box-shadow: 0 5px 10px 0 rgb(255, 123, 0, 0.16), 0 10px 20px 0 rgb(255, 123, 0, 0.12);
   }
 
 .icon {
@@ -72,7 +74,7 @@ nav a:hover {
   .about-bg {
     height: 100vh;
     background-image: url(/images/about-bg.jpg);
-    background-color: rgba(255,255,255,0.8) !important;
+    background-color: rgba(255,255,255,0.9) !important;
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: cover;
