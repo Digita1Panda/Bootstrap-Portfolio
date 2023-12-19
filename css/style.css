@@ -1,65 +1,65 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Syne:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Syne:wght@400;500;600&display=swap');
 
 :root {
-    --colorChange: rgb(255, 123, 0);
+  --colorChange: rgb(255, 123, 0);
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }  
 
+/* Navigation bar properties */
 .navbar-nav {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .nav-item {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
 
 nav a:hover {
-    color: var(--colorChange) !important;
-    text-decoration: underline;
-    text-underline-offset: .5rem;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--colorChange);
-  }
+  color: var(--colorChange) !important;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--colorChange);
+}
 
-  nav {
-    box-shadow: 0 0 30px rgb(143, 143, 143, 0.6);
-  }
+nav {
+  box-shadow: 0 0 30px rgb(143, 143, 143, 0.6);
+}
 
-  .hero-bg {
-    height: 100vh;
-    position: relative;
-    background-image: url(/images/vecteezy_watercolor-art-background-vector-wallpaper-design-with_23031786.jpg);
-    background-color: rgba(255,255,255,0.4) !important;
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
+/* Background for the Hero section */
+.hero-bg {
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/vecteezy_watercolor-art-background-vector-wallpaper-design-with_23031786.jpg);
+  background-color: rgba(255,255,255,0.4) !important;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
 
-  .sub-heading {
-    color: rgb(107, 107, 107);
-  }
+.sub-heading {
+  color: rgb(107, 107, 107);
+}
 
-  .hero-content {
-    display: flex;
-    align-items: center;
-  }
+.hero-content {
+  display: flex;
+  align-items: center;
+}
 
-  .custom-btn {
-    border-color: var(--colorChange);
-    text-decoration: none;
-    
-  }
+/* Custom button properties and Hover effect for buttons */
+.custom-btn {
+  border-color: var(--colorChange);
+  text-decoration: none;
+}
 
-
-  .custom-btn:hover {
-    background-color: var(--colorChange);
-    color: white;
-    box-shadow: 0 5px 10px 0 rgb(255, 123, 0, 0.16), 0 10px 20px 0 rgb(255, 123, 0, 0.12);
-  }
+.custom-btn:hover {
+  background-color: var(--colorChange);
+  color: white;
+  box-shadow: 0 5px 10px 0 rgb(255, 123, 0, 0.16), 0 10px 20px 0 rgb(255, 123, 0, 0.12);
+}
 
 .icon {
   height: 20px;
@@ -71,11 +71,30 @@ nav a:hover {
   transform: scale(1.5);
 }
 
-  .about-bg {
-    height: 100vh;
-    background-image: url(/images/about-bg.jpg);
-    background-color: rgba(255,255,255,0.9) !important;
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/* Background for About section */
+.about-bg {
+  height: 100vh;
+  background-image: url(../images/about-bg.jpg);
+  background-color: rgba(255,255,255,0.8) !important;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Background for Work section */
+.work-bg {
+  height: 100vh;
+  background-image: url(../images/work-bg.jpg);
+  background-color: rgba(255,255,255,0.7) !important;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  border-color: var(--colorChange) !important;
+}
+
+.custom-card {
+  box-shadow: 0px 0px 20px rgb(155, 155, 155, 0.6);
+}
