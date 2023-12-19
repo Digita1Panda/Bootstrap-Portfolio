@@ -31,7 +31,7 @@ nav {
 
 /* Background for the Hero section */
 .hero-bg {
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   background-image: url(../images/vecteezy_watercolor-art-background-vector-wallpaper-design-with_23031786.jpg);
   background-color: rgba(255,255,255,0.4) !important;
