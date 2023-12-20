@@ -8,7 +8,7 @@
 - I am trying to create an attractive yet responsive website for my personal portfolio using Bootstrap
 - I have tackled challenge to ensure it is accessible and friendly to use with updated designs from the last
 - I have sectioned each part off.
-- I have learned a great deal of flexboxes
+- I have learned a great deal of Bootstrap
 
 [github page](https://github.com/Digita1Panda/bootstrap-portfolio)
 
